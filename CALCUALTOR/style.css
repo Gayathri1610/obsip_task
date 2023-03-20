@@ -1,0 +1,59 @@
+*{
+    background-image: url('cal.jpg');
+    background-size: 100%;
+}
+.text-main{
+    text-align: center;
+    color: rgb(198, 134, 134);
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+}
+
+
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.button{
+    width: 70px;
+    font-size: 30px;
+    padding: 15px;
+    margin: 0 3px;
+    border: 3px solid rgb(13, 12, 12);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Acme', sans-serif;
+    color:black;
+    background: rgb(208, 136, 133);
+}
+.item-center{
+    align-items: center;
+}
+.row{
+    margin: 10px 0;
+}
+.row input{
+    width: 310px;
+    font-size: 30px;
+    margin: 0;
+    padding: 12px 12px;
+    border: 3px solid rgb(15, 14, 14);
+    font-family: 'Acme', sans-serif;
+    border-radius: 9px;
+    color: rgb(141, 92, 92);
+}
+.total{
+    justify-content:center;
+    align-items: center;
+    padding: 300px;
+    margin: 20px;
+    color: rgb(25, 23, 23);
+}
+.button:hover{
+    background-color: rgb(95, 111, 159);
+}
