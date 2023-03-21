@@ -1,0 +1,152 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url('to do list.jpg');
+    background-size: 100%;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 70;
+    text-align: center ;
+    color: white;
+    font-family: 'Gill Sans';
+
+}
+
+.heading {
+    font-weight: 70;
+    color: white;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div .input {
+    padding: 2.5rem 1rem;
+    height: 53px;
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 700px;
+    font-size: 2.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.addButton {
+    height: 60px;
+    width: 60px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin: 1.25rem;
+    background-color: rgb(21, 2, 130);
+    cursor: pointer;
+    padding: 2.5rem;
+}
+
+.addButton:hover {
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.item {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #000;
+}
+
+.item_input {
+    background: none;
+    outline: none;
+    color: White;
+    border: none;
+    width: 350px;
+    font-size: 1.8rem;
+}
+
+.editButton {
+    font-size: 1.8rem;
+    margin: 0 0.5rem;
+    font-family: 'Futara';
+    background: none;
+    outline: none;
+    color: GoldenRod;
+    border: none;
+    cursor: pointer;
+}
+
+.removeButton {
+    font-size: 1.8rem;
+    margin: 0 0.5rem;
+    font-family: 'Futara';
+    background: none;
+    outline: none;
+    color: rgb(141, 132, 207);
+    border: none;
+    cursor: pointer;
+}
+
+.plus {
+    font-weight: 1000;
+    font-size: 2.5rem;
+}
+
+.container1 {
+    padding: 400px;
+}
+html {
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: -60px;
+    padding-left: 10px;
+}
+
+#title span {
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-2000px);
+    }  
+}
+
